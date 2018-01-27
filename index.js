@@ -211,7 +211,7 @@ class Ga {
        } else {
 
          // modified to adjust weighting of sharpe and profits -- could be refined/integrated better 	
-         populationScores[i] = Math.tanh(populationProfits[i] / 3) * Math.tanh(populationSharpes[i] / 0.25);
+         populationScores[i] = Math.tanh(populationProfits[i] / 3) * Math.tanh(populationSharpes[i] / 0.25); 
 
        }
 
